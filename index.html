@@ -21,11 +21,13 @@
         <img src="./img/Profile.svg" class="w-[17px] h-[19px]">
     </header>
     <main class="bg-[url(./img/Apexworld.png)] h-screen w-screen overflow-hidden bg-cover">
-        <div class="w-dvw h-19 flex items-center justify-center">
+        <div class="2xl:w-dvw 2xl:h-19 flex items-center justify-center md:h-[43px]">
             <div
-                class="bg-[url(./img/topmenu.png)] w-[1675px] bg-center h-19 bg-no-repeat bg- text-red-50 bg- flex items-center px-20 justify-between">
-                <ul class="flex flex-row gap-13 items-center">
-                    <img src="./img/logoapex.svg" class="w-[69.83px] h-[44.95px]">
+                class="bg-[url(./img/topmenu.png)] 2xl:w-[1675px] bg-center 2xl:h-19 bg-no-repeat bg- text-red-50 bg- flex 
+                items-center 2xl:px-20 justify-between 2xl:bg-cover md:bg-contain
+                md:w-[770px] md:h-[43px] md:px-20">
+                <ul class="flex flex-row 2xl:gap-12 md:gap-6 items-center 2xl:w-full 2xl:h-full md:w-[650px] md:h-[34px] 2xl:text-[16px] md:text-[13px]">
+                    <img src="./img/logoapex.svg" class="w-[69.83px] h-[44.95px] 2xl:block md:hidden">
                     <li>ABOUT</li>
                     <li>MODES</li>
                     <li>SEASON</li>
@@ -34,14 +36,15 @@
                     <li>COMMUNITY</li>
                     <li>COMPETE</li>
                 </ul>
-                <button class="h-[48px] w-[233px] bg-red-700 font-bold">DOWNLOAD FOR FREE</button>
+                <button class="h-[48px] w-[280px] bg-red-700 font-bold 2xl:block md:hidden">DOWNLOAD FOR FREE</button>
             </div>
         </div>
-        <div class="w-[100%] h-[100%] flex flex-row items-center justify-center">
-            <div class="w-[861px] h-[423px] flex flex-col gap-6 text-[24px]">
-                <img class="w-[327px] h-[210px] px-7" src="./img/logomain.svg" alt="">
-                <p class="text-white font-thin w-[861px] h-[94px] px-8">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.</p>
-                <div class="flex flex-row gap-6 text-white font-bold">
+        <div class="w-full h-full flex 2xl:flex-row items-center justify-center md:flex-col md:content-center">
+            <div class="2xl:w-[861px] md:w-[779px] h-[423px] flex flex-col 2xl:gap-6 text-[24px] 2xl:items-start md:items-center md:gap-18">
+                <img class="2xl:w-[327px] 2xl:h-[210px] 2xl:px-7 md:w-[314px] md:h-[202px]" src="./img/logomain.svg" alt="">
+                <p class="text-white font-thin 2xl:w-[861px] 2xl:h-[94px] 2xl:px-8 md:w-[492px] md:-h[74px] 2xl:text-[24px] md:text-[18px] 2xl:text-left 
+                md:text-center 2xl:leading-9 md:leading-9">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.</p>
+                <div class="flex flex-row gap-6 text-white font-bold 2xl:relative 2xl:bottom-0 md:absolute md:bottom-10">
                     <button class="bg-[url(./img/freebttn.png)] w-[281px] h-[71px]">
                     <p>PLAY FREE NOW</p>
                     </button>
@@ -50,7 +53,7 @@
                     </button>
                 </div>
             </div>
-            <div class="h-[906px] w-[875px] flex"><img src="./img/Visuals.png" alt="">
+            <div class="2xl:h-[906px] 2xl:w-[875px] flex md:h-[688px] w-[697px]"><img src="./img/Visuals.png" alt="">
             </div>
         </div>
     </main>
