@@ -4,31 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .font-oxanium {
+            font-family: 'Oxanium', sans-serif;
+        }
+    </style>
     <title>Apex Legends</title>
 </head>
 
-<body class="h-screen w-screen">
-    <header class="h-10 w-screen bg-[#161616]">
-        <div class="flex flex-row-reverse">
-            <img src="./img/Profile.png" alt="">
-            <img src="./img/Help.png" alt="">
-            <img src="./img/EA.png" alt="">
-        </div>
+<body class="h-screen w-screen font-oxanium font-medium overflow-hidden">
+    <header class="h-10 w-[100%] bg-[#161616] flex flex-row-reverse items-center">
+        <img src="./img/EA.svg" class="w-[33px] h-[18px]">
+        <img src="./img/Help.svg" class="w-[14px] h-[20px]">
+        <img src="./img/Profile.svg" class="w-[17px] h-[19px]">
     </header>
-    <main class="bg-[url(/img/Apexworld.png)] h-screen w-screen bg-cover">
+    <main class="bg-[url(/img/Apexworld.png)] h-screen overflow-hidden w-screen bg-cover">
         <div class="w-dvw h-19 flex items-center justify-center">
-            <div class="">
-                <div class="bg-[url(./img/topmenu.svg)] w-dvw h-19 bg-no-repeat text-red-50">
-                    <img src="./img/logoapex.svg" class="flex flex-row">
+            <div
+                class="bg-[url(./img/topmenu.png)] w-[1675px] bg-center h-19 bg-no-repeat bg- text-red-50 bg- flex items-center px-20 justify-between">
+                <ul class="flex flex-row gap-13 items-center">
+                    <img src="./img/logoapex.svg" class="w-[69.83px] h-[44.95px]">
                     <li>ABOUT</li>
                     <li>MODES</li>
                     <li>SEASON</li>
                     <li>BATTLE PASS</li>
                     <li>NEWS & MEDIA</li>
-                </div>
+                    <li>COMMUNITY</li>
+                    <li>COMPETE</li>
+                </ul>
+                <button class="h-[48px] w-[233px] bg-red-700 font-bold">DOWNLOAD FOR FREE</button>
             </div>
         </div>
+       
     </main>
     <footer></footer>
 </body>
