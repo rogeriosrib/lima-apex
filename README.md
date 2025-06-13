@@ -10,7 +10,7 @@ Atividade somatória realizada utilizando framework
  * Media Queries
 
 ## Como executar o projeto?
-Basta procurar a aba "About" e clicar no link 
+Basta acessar o link :
 [Projeto](https://rogeriosrib.github.io/lima-apex/)
 
 ## Tablet
