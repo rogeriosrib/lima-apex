@@ -2,12 +2,15 @@
 
 ![](./img/previewapex.png)
 
-Atividade somatória realizada utilizando o framework
+Atividade somatória realizada utilizando framework
  
- ## Tecnologias 
+## Tecnologias 
  * HTML
  * Tailwind CSS
  * Media Queries
+
+## Como executar o projeto?
+Basta procurar a aba "About" e clicar no link
 
 ## Tablet
 
