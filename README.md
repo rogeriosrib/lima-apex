@@ -4,6 +4,9 @@
 
 Atividade somatória realizada utilizando framework
  
+## Protótipo do projeto no Figma
+[Figma](https://www.figma.com/proto/oeGoy5s7UY7SeqLgopUn6k/LIMA-APEX?node-id=0-1&t=q3hH6u8szgHgCUzu-1)
+
 ## Tecnologias 
  * HTML
  * Tailwind CSS
