@@ -1,6 +1,6 @@
 # lima-apex
 
-![](./img/previewapexs)
+![](./img/previewapex.png)
 
 Atividade somatória realizada utilizando o framework
  
@@ -12,6 +12,10 @@ Atividade somatória realizada utilizando o framework
 ## Tablet
 
 ![](./img/Tablet.png)
+
+## Mobile
+
+![](./img/Mobile.png)
 
  ## Autor do projeto
  [Roger Ribeiro.](https://www.linkedin.com/in/roger-r-de-oliveira-890923353/)
